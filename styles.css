@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #f1f1f1;
+}
+header {
+  background-color: #1e1e1e;
+  padding-bottom: 10px;
+}
+.cta-banner {
+  background-color: #ff5722;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+nav h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: #f1f1f1;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+nav a:hover,
+nav a.active {
+  color: #ff5722;
+}
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to right, #1e1e1e, #2c2c2c);
+}
+.btn-primary {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.btn-primary:hover {
+  background-color: #e64a19;
+}
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.card {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1 1 calc(30% - 20px);
+  min-width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.content {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+footer {
+  background-color: #1e1e1e;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
